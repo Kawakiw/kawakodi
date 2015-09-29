@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addons>
+<addon id="plugin.video.bienetre"
+	name="bienetre"
+	version="1.0.0"
+	provider-name="Sourakh.com">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.addon.common" version="2.0.0"/>
+    <import addon="plugin.video.youtube" version="5.0.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">bienetre</summary>
+    <description lang="en">Retrouvez les sujets politiques, économiques et culturels qui font l'actualité marocaine.</description>
+    <platform>all</platform>
+    <forum>http://Sourakh.com</forum>
+    <website>http://www.Sourakh.com/</website>
+  </extension>
+</addon>
+
+<addon id="plugin.video.divertissement"
+	name="divertissement"
+	version="1.0.0"
+	provider-name="Sourakh.com">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.addon.common" version="2.0.0"/>
+    <import addon="plugin.video.youtube" version="5.0.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">divertissement</summary>
+    <description lang="en">divertissement est une émission de télévision canadienne humoristique, créée par Pierre Girard et Jacques Chevalier, présentant des vidéos amusantes dont le format est basée sur les caméras les caméras cachées.</description>
+    <platform>all</platform>
+    <forum>http://Sourakh.com</forum>
+    <website>http://www.Sourakh.com/</website>
+  </extension>
+</addon>
+
+<addon id="plugin.video.elearning"
+	name="elearning"
+	version="1.0.0"
+	provider-name="Sourakh.com">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.addon.common" version="2.0.0"/>
+    <import addon="plugin.video.youtube" version="5.0.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">elearning</summary>
+    <description lang="en">Le plus grand projet de E-learning marocain : Langues, Maths, Informatique, Économie. Du Primaire au Supérieur !</description>
+    <platform>all</platform>
+    <forum>http://Sourakh.com</forum>
+    <website>http://www.Sourakh.com/</website>
+  </extension>
+</addon>
+
+<addon id="plugin.video.infoactu"
+	name="infoactu"
+	version="1.0.0"
+	provider-name="Sourakh.com">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.addon.common" version="2.0.0"/>
+    <import addon="plugin.video.youtube" version="5.0.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">infoactu</summary>
+    <description lang="en">Retrouvez les sujets politiques, économiques et culturels qui font l'actualité.</description>
+    <platform>all</platform>
+    <forum>http://Sourakh.com</forum>
+    <website>http://www.Sourakh.com/</website>
+  </extension>
+</addon>
+
+<addon id="plugin.video.musique"
+	name="musique"
+	version="1.0.0"
+	provider-name="Sourakh.com">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.addon.common" version="2.0.0"/>
+    <import addon="plugin.video.youtube" version="5.0.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">musique</summary>
+    <description lang="en">Retrouvez les sujets politiques, économiques et culturels qui font l'actualité.</description>
+    <platform>all</platform>
+    <forum>http://Sourakh.com</forum>
+    <website>http://www.Sourakh.com/</website>
+  </extension>
+</addon>
+
+<addon id="repository.Kawakodi"
+        name="Kawakodi Repository"
+        version="0.0.1"
+        provider-name="Venom">
+    <extension point="xbmc.addon.repository" name="Kawakodi XBMC Addon Repository">
+        <checksum>https://raw.githubusercontent.com/Kawakiw/kawakodi/master/addons.xml.md5</checksum>
+        <info compressed="false">https://raw.githubusercontent.com/Kawakiw/kawakodi/master/addons.xml</info>
+        <datadir zip="true">https://github.com/Kawakiw/kawakodi/raw/master/zips</datadir>
+    </extension>
+
+    <extension point="xbmc.addon.metadata">
+        <summary lang="fr">Kawakodi Repository</summary>
+        <description lang="fr">Installer Kawakodi</description>
+        <summary lang="en">Kawakodi Repository</summary>
+        <description lang="en">Download and install Kawakodi</description>
+        <platform>all</platform>
+    </extension>
+</addon>
+</addons>
