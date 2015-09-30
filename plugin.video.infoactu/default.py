@@ -24,7 +24,7 @@ YOUTUBE_CHANNEL_IDD = "BFMTV"
 YOUTUBE_CHANNEL_IDE = "LaChaineTechno"
 YOUTUBE_CHANNEL_IDF = "euronewsfr"
 YOUTUBE_CHANNEL_IDG = "france24"
-YOUTUBE_CHANNEL_IDH = "UC-9-kyTW8ZkZNDHQJ6FgpwQ"
+#YOUTUBE_CHANNEL_IDH = "UC-9-kyTW8ZkZNDHQJ6FgpwQ"
 
 # Entry point
 def run():
@@ -94,11 +94,11 @@ def main_list(params):
         thumbnail=icon,
         folder=True )
 		
-    plugintools.add_item( 
-        #action="", 
-        title="Musique",
-        url="plugin://plugin.video.youtube/channel/"+YOUTUBE_CHANNEL_IDH+"/",
-        thumbnail=icon,
-        folder=True )
+    #plugintools.add_item( 
+    #    #action="", 
+    #    title="Musique",
+    #    url="plugin://plugin.video.youtube/channel/"+YOUTUBE_CHANNEL_IDH+"/",
+    #    thumbnail=icon,
+    #    folder=True )
 
 run()
