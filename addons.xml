@@ -44,7 +44,7 @@
 
 <addon id="plugin.video.elearning"
 	name="elearning"
-	version="1.0.0"
+	version="1.0.1"
 	provider-name="Sourakh.com">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>

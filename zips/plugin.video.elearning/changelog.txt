@@ -1,2 +1,5 @@
 [B]Version 1.0[/B]
 - Initial version
+
+[b]Version 1.0.1[/B]
+- Adding mit Fanart and Thumbnail

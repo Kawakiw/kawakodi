@@ -65,10 +65,10 @@ def main_list(params):
         folder=True )
 		
     plugintools.add_item( 
-        #action="", 
+        fanart='https://raw.githubusercontent.com/Kawakiw/kawakodi/master/ressources/fanarts/mit.jpg', 
         title="Massachusetts Institute of Technology (MIT)",
         url="plugin://plugin.video.youtube/user/"+YOUTUBE_CHANNEL_IDD+"/",
-        thumbnail=icon,
+        thumbnail='https://raw.githubusercontent.com/Kawakiw/kawakodi/master/ressources/thumbnails/mit.png',
         folder=True )
 	
     plugintools.add_item( 
