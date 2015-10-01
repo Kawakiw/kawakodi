@@ -63,7 +63,7 @@ def main_list(params):
         fanart='https://raw.githubusercontent.com/Kawakiw/kawakodi/master/ressources/fanarts/medi1tv.jpg', 
         title="Medi 1 TV",
         url="plugin://plugin.video.youtube/user/"+YOUTUBE_CHANNEL_IDC+"/",
-        thumbnail='https://raw.githubusercontent.com/Kawakiw/kawakodi/master/ressources/thumbnails/medi1tv.png,
+        thumbnail='https://raw.githubusercontent.com/Kawakiw/kawakodi/master/ressources/thumbnails/medi1tv.png',
         folder=True )
 		
     plugintools.add_item( 
