@@ -46,52 +46,52 @@ def main_list(params):
     plugintools.log("infoactu.main_list "+repr(params))
 
     plugintools.add_item( 
-        #action="", 
+        fanart='https://raw.githubusercontent.com/Kawakiw/kawakodi/master/ressources/fanarts/telquel.jpg', 
         title="TelQuel",
         url="plugin://plugin.video.youtube/channel/"+YOUTUBE_CHANNEL_IDA+"/",
-        thumbnail=icon,
+        thumbnail='https://raw.githubusercontent.com/Kawakiw/kawakodi/master/ressources/thumbnails/telquel.png',
         folder=True )
 		
     plugintools.add_item( 
-        #action="", 
+        fanart='https://raw.githubusercontent.com/Kawakiw/kawakodi/master/ressources/fanarts/2m.jpg', 
         title="2M",
         url="plugin://plugin.video.youtube/user/"+YOUTUBE_CHANNEL_IDB+"/",
-        thumbnail=icon,
+        thumbnail='https://raw.githubusercontent.com/Kawakiw/kawakodi/master/ressources/thumbnails/2m.png',
         folder=True )
 	
     plugintools.add_item( 
-        #action="", 
+        fanart='https://raw.githubusercontent.com/Kawakiw/kawakodi/master/ressources/fanarts/medi1tv.jpg', 
         title="Medi 1 TV",
         url="plugin://plugin.video.youtube/user/"+YOUTUBE_CHANNEL_IDC+"/",
-        thumbnail=icon,
+        thumbnail='https://raw.githubusercontent.com/Kawakiw/kawakodi/master/ressources/thumbnails/medi1tv.png,
         folder=True )
 		
     plugintools.add_item( 
-        #action="", 
+        fanart='https://raw.githubusercontent.com/Kawakiw/kawakodi/master/ressources/fanarts/bfmtv.jpg', 
         title="BFM TV",
         url="plugin://plugin.video.youtube/user/"+YOUTUBE_CHANNEL_IDD+"/",
-        thumbnail=icon,
+        thumbnail='https://raw.githubusercontent.com/Kawakiw/kawakodi/master/ressources/thumbnails/bfmtv.png',
         folder=True )
 		
     plugintools.add_item( 
-        #action="", 
+        fanart='https://raw.githubusercontent.com/Kawakiw/kawakodi/master/ressources/fanarts/01net.jpg', 
         title="01net TV - La Chaine Techno",
         url="plugin://plugin.video.youtube/user/"+YOUTUBE_CHANNEL_IDE+"/",
-        thumbnail=icon,
+        thumbnail='https://raw.githubusercontent.com/Kawakiw/kawakodi/master/ressources/thumbnails/01net.png',
         folder=True )
 		
     plugintools.add_item( 
-        #action="", 
+        fanart='https://raw.githubusercontent.com/Kawakiw/kawakodi/master/ressources/fanarts/euronews.jpg', 
         title="Euronews",
         url="plugin://plugin.video.youtube/user/"+YOUTUBE_CHANNEL_IDF+"/",
-        thumbnail=icon,
+        thumbnail='https://raw.githubusercontent.com/Kawakiw/kawakodi/master/ressources/thumbnails/euronews.png',
         folder=True )
 		
     plugintools.add_item( 
-        #action="", 
+        fanart='https://raw.githubusercontent.com/Kawakiw/kawakodi/master/ressources/fanarts/france24.jpg', 
         title="France 24",
         url="plugin://plugin.video.youtube/user/"+YOUTUBE_CHANNEL_IDG+"/",
-        thumbnail=icon,
+        thumbnail='https://raw.githubusercontent.com/Kawakiw/kawakodi/master/ressources/thumbnails/france24.png',
         folder=True )
 		
     #plugintools.add_item( 
