@@ -1,3 +1,0 @@
-﻿[b] Update Sourakh Version 1.0.0 [\b]
-
-- Initial commit 

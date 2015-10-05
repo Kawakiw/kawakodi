@@ -1,0 +1,5 @@
+﻿[b] Sourakh v0.3.5 [/b]
+
+- Téléchargement de metadonnées
+- Correction des lien Exashare
+- Redirection des marques pages
