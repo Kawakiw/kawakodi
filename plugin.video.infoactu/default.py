@@ -24,7 +24,7 @@ YOUTUBE_CHANNEL_IDD = "BFMTV"
 YOUTUBE_CHANNEL_IDE = "LaChaineTechno"
 YOUTUBE_CHANNEL_IDF = "euronewsfr"
 YOUTUBE_CHANNEL_IDG = "france24"
-#YOUTUBE_CHANNEL_IDH = "UC-9-kyTW8ZkZNDHQJ6FgpwQ"
+YOUTUBE_CHANNEL_IDH = "onpcofficielle"
 
 # Entry point
 def run():
@@ -94,11 +94,11 @@ def main_list(params):
         thumbnail='https://raw.githubusercontent.com/Kawakiw/kawakodi/master/ressources/thumbnails/france24.png',
         folder=True )
 		
-    #plugintools.add_item( 
-    #    #action="", 
-    #    title="Musique",
-    #    url="plugin://plugin.video.youtube/channel/"+YOUTUBE_CHANNEL_IDH+"/",
-    #    thumbnail=icon,
-    #    folder=True )
+    plugintools.add_item( 
+        fanart='https://raw.githubusercontent.com/Kawakiw/kawakodi/master/ressources/fanarts/onpc.jpg', 
+        title="On n'est pas couché",
+        url="plugin://plugin.video.youtube/user/"+YOUTUBE_CHANNEL_IDH+"/",
+        thumbnail='https://raw.githubusercontent.com/Kawakiw/kawakodi/master/ressources/thumbnails/onpc.png',
+        folder=True )
 
 run()
