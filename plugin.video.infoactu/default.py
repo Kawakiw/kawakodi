@@ -25,6 +25,7 @@ YOUTUBE_CHANNEL_IDE = "LaChaineTechno"
 YOUTUBE_CHANNEL_IDF = "euronewsfr"
 YOUTUBE_CHANNEL_IDG = "france24"
 YOUTUBE_CHANNEL_IDH = "onpcofficielle"
+YOUTUBE_CHANNEL_IDI = "tv5monde"
 
 # Entry point
 def run():
@@ -99,6 +100,13 @@ def main_list(params):
         title="On n'est pas couché",
         url="plugin://plugin.video.youtube/user/"+YOUTUBE_CHANNEL_IDH+"/",
         thumbnail='https://raw.githubusercontent.com/Kawakiw/kawakodi/master/ressources/thumbnails/onpc.png',
+        folder=True )
+	
+    plugintools.add_item( 
+        fanart='https://raw.githubusercontent.com/Kawakiw/kawakodi/master/ressources/fanarts/tv5monde.jpg', 
+        title="TV5 Monde",
+        url="plugin://plugin.video.youtube/user/"+YOUTUBE_CHANNEL_IDI+"/",
+        thumbnail='https://raw.githubusercontent.com/Kawakiw/kawakodi/master/ressources/thumbnails/tv5monde.png',
         folder=True )
 
 run()
