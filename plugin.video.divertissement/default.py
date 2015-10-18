@@ -56,7 +56,7 @@ def main_list(params):
         folder=True )
 		
     plugintools.add_item( 
-        fanart='https://raw.githubusercontent.com/Kawakiw/kawakodi/master/ressources/fanarts/failarmy.jpg', 
+        fanart='https://raw.githubusercontent.com/Kawakiw/kawakodi/master/ressources/fanarts/comedia.jpg', 
         title="Comedia Al Oula",
         url="plugin://plugin.video.youtube/user/"+YOUTUBE_CHANNEL_IDB+"/",
         thumbnail='https://raw.githubusercontent.com/Kawakiw/kawakodi/master/ressources/thumbnails/comedia.png',
@@ -73,7 +73,7 @@ def main_list(params):
         fanart='https://raw.githubusercontent.com/Kawakiw/kawakodi/master/ressources/fanarts/jukinvideo.jpg', 
         title="JukinVideo",
         url="plugin://plugin.video.youtube/user/"+YOUTUBE_CHANNEL_IDD+"/",
-        thumbnail='https://raw.githubusercontent.com/Kawakiw/kawakodi/master/ressources/thumbnails/failarmy.png',
+        thumbnail='https://raw.githubusercontent.com/Kawakiw/kawakodi/master/ressources/thumbnails/jukinvideo.png',
         folder=True )
 	
     plugintools.add_item( 
