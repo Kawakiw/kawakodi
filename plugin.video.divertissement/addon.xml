@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addon id="plugin.video.divertissement"
 	name="divertissement"
-	version="1.0.0"
+	version="1.0.1"
 	provider-name="Sourakh.com">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -13,7 +13,7 @@
   </extension>
   <extension point="xbmc.addon.metadata">
     <summary lang="en">divertissement</summary>
-    <description lang="en">divertissement est une émission de télévision canadienne humoristique, créée par Pierre Girard et Jacques Chevalier, présentant des vidéos amusantes dont le format est basée sur les caméras les caméras cachées.</description>
+    <description lang="en">divertissement est une émission de télév humoristique, créée par Pierre Girard et Jacques Chevalier, présentant des vidéos amusantes dont le format est basée sur les caméras les caméras cachées.</description>
     <platform>all</platform>
     <forum>http://Sourakh.com</forum>
     <website>http://www.Sourakh.com/</website>
