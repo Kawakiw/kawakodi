@@ -25,7 +25,7 @@ YOUTUBE_CHANNEL_IDE = "UCsN_Ml220puJo9RFBHriAaw"
 YOUTUBE_CHANNEL_IDF = "MOMOBOUSFIHA"
 YOUTUBE_CHANNEL_IDG = "TheBlackmoussiba"
 YOUTUBE_CHANNEL_IDH = "MonsieurDream"
-YOUTUBE_CHANNEL_IDI = "NormalFaitDesVideos"
+YOUTUBE_CHANNEL_IDI = "NormanFaitDesVideos"
 
 
 
@@ -106,7 +106,7 @@ def main_list(params):
 	
     plugintools.add_item( 
         fanart='https://raw.githubusercontent.com/Kawakiw/kawakodi/master/ressources/fanarts/norman.jpg', 
-        title="Normal Fait Des Vidéos",
+        title="Norman Fait Des Vidéos",
         url="plugin://plugin.video.youtube/user/"+YOUTUBE_CHANNEL_IDI+"/",
         thumbnail='https://raw.githubusercontent.com/Kawakiw/kawakodi/master/ressources/thumbnails/norman.png',
         folder=True )	
