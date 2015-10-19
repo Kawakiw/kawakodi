@@ -47,52 +47,52 @@ def main_list(params):
     plugintools.log("bienetre.main_list "+repr(params))
 
     plugintools.add_item( 
-        #action="", 
+        fanart='https://raw.githubusercontent.com/Kawakiw/kawakodi/master/ressources/fanarts/marmiton.jpg 
         title="Marmiton",
         url="plugin://plugin.video.youtube/user/"+YOUTUBE_CHANNEL_IDA+"/",
-        thumbnail=icon,
+        thumbnail='https://raw.githubusercontent.com/Kawakiw/kawakodi/master/ressources/thumbnails/marmiton.png',
         folder=True )
 	
     plugintools.add_item( 
-        #action="", 
+        fanart='https://raw.githubusercontent.com/Kawakiw/kawakodi/master/ressources/fanarts/fitnessblender.jpg 
         title="Fitness Blender",
-        url="plugin://plugin.video.youtube/show/"+YOUTUBE_CHANNEL_IDB+"/",
-        thumbnail=icon,
+        url="plugin://plugin.video.youtube/user/"+YOUTUBE_CHANNEL_IDB+"/",
+        thumbnail='https://raw.githubusercontent.com/Kawakiw/kawakodi/master/ressources/thumbnails/fitnessblender.png',
         folder=True )
 		
     plugintools.add_item( 
-        #action="", 
+        fanart='https://raw.githubusercontent.com/Kawakiw/kawakodi/master/ressources/fanarts/doctissimo.jpg 
         title="Doctissimo",
         url="plugin://plugin.video.youtube/user/"+YOUTUBE_CHANNEL_IDC+"/",
-        thumbnail=icon,
+        thumbnail='https://raw.githubusercontent.com/Kawakiw/kawakodi/master/ressources/thumbnails/doctissimo.png',
         folder=True )
 		
     plugintools.add_item( 
-        #action="", 
+        fanart='https://raw.githubusercontent.com/Kawakiw/kawakodi/master/ressources/fanarts/elle.jpg 
         title="ELLE",
         url="plugin://plugin.video.youtube/user/"+YOUTUBE_CHANNEL_IDD+"/",
-        thumbnail=icon,
+        thumbnail='https://raw.githubusercontent.com/Kawakiw/kawakodi/master/ressources/thumbnails/elle.png',
         folder=True )
 	
     plugintools.add_item( 
-        #action="", 
+        fanart='https://raw.githubusercontent.com/Kawakiw/kawakodi/master/ressources/fanarts/be.jpg 
         title="Be",
         url="plugin://plugin.video.youtube/user/"+YOUTUBE_CHANNEL_IDE+"/",
-        thumbnail=icon,
+        thumbnail='https://raw.githubusercontent.com/Kawakiw/kawakodi/master/ressources/thumbnails/be.png',
         folder=True )
 	
     plugintools.add_item( 
-        #action="", 
+        fanart='https://raw.githubusercontent.com/Kawakiw/kawakodi/master/ressources/fanarts/latelierdeschefs.jpg 
         title="L'atelier Des Chefs",
         url="plugin://plugin.video.youtube/user/"+YOUTUBE_CHANNEL_IDF+"/",
-        thumbnail=icon,
+        thumbnail='https://raw.githubusercontent.com/Kawakiw/kawakodi/master/ressources/thumbnails/latelierdeschefs.png',
         folder=True )
 		
     plugintools.add_item( 
-        #action="", 
+        fanart='https://raw.githubusercontent.com/Kawakiw/kawakodi/master/ressources/fanarts/aufeminin.jpg 
         title="Au Féminin",
         url="plugin://plugin.video.youtube/user/"+YOUTUBE_CHANNEL_IDG+"/",
-        thumbnail=icon,
+        thumbnail='https://raw.githubusercontent.com/Kawakiw/kawakodi/master/ressources/thumbnails/aufeminin.png',
         folder=True )
 
 run()
