@@ -24,6 +24,7 @@ YOUTUBE_CHANNEL_IDD = "ELLEfr"
 YOUTUBE_CHANNEL_IDE = "be"
 YOUTUBE_CHANNEL_IDF = "atelierdeschefs"
 YOUTUBE_CHANNEL_IDG = "AuFemininBeaute"
+YOUTUBE_CHANNEL_IDH = "ChefAhmadAllCooking"
 
 
 
@@ -93,6 +94,13 @@ def main_list(params):
         title="Au Féminin",
         url="plugin://plugin.video.youtube/user/"+YOUTUBE_CHANNEL_IDG+"/",
         thumbnail='https://raw.githubusercontent.com/Kawakiw/kawakodi/master/ressources/thumbnails/aufeminin.png',
+        folder=True 
+		
+    plugintools.add_item( 
+        fanart='https://raw.githubusercontent.com/Kawakiw/kawakodi/master/ressources/fanarts/chefahmad.jpg', 
+        title="Chef Ahmad ",
+        url="plugin://plugin.video.youtube/user/"+YOUTUBE_CHANNEL_IDG+"/",
+        thumbnail='https://raw.githubusercontent.com/Kawakiw/kawakodi/master/ressources/thumbnails/chefahmad.png',
         folder=True )
 
 run()
