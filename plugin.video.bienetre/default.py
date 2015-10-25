@@ -99,7 +99,7 @@ def main_list(params):
     plugintools.add_item( 
         fanart='https://raw.githubusercontent.com/Kawakiw/kawakodi/master/ressources/fanarts/chefahmad.jpg', 
         title="Chef Ahmad ",
-        url="plugin://plugin.video.youtube/user/"+YOUTUBE_CHANNEL_IDG+"/",
+        url="plugin://plugin.video.youtube/user/"+YOUTUBE_CHANNEL_IDH+"/",
         thumbnail='https://raw.githubusercontent.com/Kawakiw/kawakodi/master/ressources/thumbnails/chefahmad.png',
         folder=True )
 
