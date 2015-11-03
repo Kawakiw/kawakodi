@@ -26,6 +26,10 @@ YOUTUBE_CHANNEL_IDF = "MOMOBOUSFIHA"
 YOUTUBE_CHANNEL_IDG = "TheBlackmoussiba"
 YOUTUBE_CHANNEL_IDH = "MonsieurDream"
 YOUTUBE_CHANNEL_IDI = "NormanFaitDesVideos"
+YOUTUBE_CHANNEL_IDJ = "ElWadyAflam"
+YOUTUBE_CHANNEL_IDK = "KarimAbdAziz"
+YOUTUBE_CHANNEL_IDL = "ATLArabTorrents"
+YOUTUBE_CHANNEL_IDM = "cinemaghrebia"
 
 
 
@@ -109,6 +113,34 @@ def main_list(params):
         title="Norman Fait Des Vidéos",
         url="plugin://plugin.video.youtube/user/"+YOUTUBE_CHANNEL_IDI+"/",
         thumbnail='https://raw.githubusercontent.com/Kawakiw/kawakodi/master/ressources/thumbnails/norman.png',
+        folder=True )
+
+    plugintools.add_item( 
+        fanart='https://raw.githubusercontent.com/Kawakiw/kawakodi/master/ressources/fanarts/elwady.jpg', 
+        title="El Wady Aflam",
+        url="plugin://plugin.video.youtube/user/"+YOUTUBE_CHANNEL_IDI+"/",
+        thumbnail='https://raw.githubusercontent.com/Kawakiw/kawakodi/master/ressources/thumbnails/elwady.png',
         folder=True )	
+    
+    plugintools.add_item( 
+        fanart='https://raw.githubusercontent.com/Kawakiw/kawakodi/master/ressources/fanarts/karim.jpg', 
+        title="Karim Abdaziz's channel",
+        url="plugin://plugin.video.youtube/user/"+YOUTUBE_CHANNEL_IDI+"/",
+        thumbnail='https://raw.githubusercontent.com/Kawakiw/kawakodi/master/ressources/thumbnails/karim.png',
+        folder=True )	
+
+    plugintools.add_item( 
+        fanart='https://raw.githubusercontent.com/Kawakiw/kawakodi/master/ressources/fanarts/atlarab.jpg', 
+        title="ATL ArabTorrent's channel",
+        url="plugin://plugin.video.youtube/user/"+YOUTUBE_CHANNEL_IDI+"/",
+        thumbnail='https://raw.githubusercontent.com/Kawakiw/kawakodi/master/ressources/thumbnails/atlarab.png',
+        folder=True )	
+
+    plugintools.add_item( 
+        fanart='https://raw.githubusercontent.com/Kawakiw/kawakodi/master/ressources/fanarts/cinemaghrebia.jpg', 
+        title="Cinémaghrebia",
+        url="plugin://plugin.video.youtube/user/"+YOUTUBE_CHANNEL_IDI+"/",
+        thumbnail='https://raw.githubusercontent.com/Kawakiw/kawakodi/master/ressources/thumbnails/cinemaghrebia.png',
+        folder=True )			
 
 run()
