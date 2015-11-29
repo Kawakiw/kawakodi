@@ -30,7 +30,14 @@ YOUTUBE_CHANNEL_IDJ = "ElWadyAflam"
 YOUTUBE_CHANNEL_IDK = "KarimAbdAziz"
 YOUTUBE_CHANNEL_IDL = "ATLArabTorrents"
 YOUTUBE_CHANNEL_IDM = "cinemaghrebia"
-
+YOUTUBE_CHANNEL_IDN = "sbitarr36"
+YOUTUBE_CHANNEL_IDO = "chartstopten"
+YOUTUBE_CHANNEL_IDP = "hmdproduction"
+YOUTUBE_CHANNEL_IDQ = "INERNETvideo"
+YOUTUBE_CHANNEL_IDR = "Hadoukentheband"
+YOUTUBE_CHANNEL_IDS = "ANDIMOCHKIL"
+YOUTUBE_CHANNEL_IDT = "fouseyTUBE"
+YOUTUBE_CHANNEL_IDU = "PrankvsPrank"
 
 
 # Entry point
@@ -141,6 +148,62 @@ def main_list(params):
         title="Cinémaghrebia",
         url="plugin://plugin.video.youtube/user/"+YOUTUBE_CHANNEL_IDM+"/",
         thumbnail='https://raw.githubusercontent.com/Kawakiw/kawakodi/master/ressources/thumbnails/cinemaghrebia.png',
-        folder=True )			
+        folder=True )
 
+    plugintools.add_item( 
+        fanart='https://raw.githubusercontent.com/Kawakiw/kawakodi/master/ressources/fanarts/sbitarr36.jpg', 
+        title="Sbitarr 36",
+        url="plugin://plugin.video.youtube/user/"+YOUTUBE_CHANNEL_IDN+"/",
+        thumbnail='https://raw.githubusercontent.com/Kawakiw/kawakodi/master/ressources/thumbnails/sbitarr36.png',
+        folder=True )			
+		
+    plugintools.add_item( 
+        fanart='https://raw.githubusercontent.com/Kawakiw/kawakodi/master/ressources/fanarts/chartstop10.jpg', 
+        title="Charts Top 10",
+        url="plugin://plugin.video.youtube/user/"+YOUTUBE_CHANNEL_IDO+"/",
+        thumbnail='https://raw.githubusercontent.com/Kawakiw/kawakodi/master/ressources/thumbnails/chartstop10.png',
+        folder=True )
+
+    plugintools.add_item( 
+        fanart='https://raw.githubusercontent.com/Kawakiw/kawakodi/master/ressources/fanarts/hmdprod.jpg', 
+        title="HMD prod",
+        url="plugin://plugin.video.youtube/user/"+YOUTUBE_CHANNEL_IDP+"/",
+        thumbnail='https://raw.githubusercontent.com/Kawakiw/kawakodi/master/ressources/thumbnails/hmdprod.png',
+        folder=True )
+		
+    plugintools.add_item( 
+        fanart='https://raw.githubusercontent.com/Kawakiw/kawakodi/master/ressources/fanarts/inernet.jpg', 
+        title="INERNET",
+        url="plugin://plugin.video.youtube/user/"+YOUTUBE_CHANNEL_IDQ+"/",
+        thumbnail='https://raw.githubusercontent.com/Kawakiw/kawakodi/master/ressources/thumbnails/inernet.png',
+        folder=True )
+
+    plugintools.add_item( 
+        fanart='https://raw.githubusercontent.com/Kawakiw/kawakodi/master/ressources/fanarts/paa.jpg', 
+        title="People Are Awesome",
+        url="plugin://plugin.video.youtube/user/"+YOUTUBE_CHANNEL_IDR+"/",
+        thumbnail='https://raw.githubusercontent.com/Kawakiw/kawakodi/master/ressources/thumbnails/paa.png',
+        folder=True )
+		
+    plugintools.add_item( 
+        fanart='https://raw.githubusercontent.com/Kawakiw/kawakodi/master/ressources/fanarts/andimouchkil.jpg', 
+        title="3endi Mouchkil",
+        url="plugin://plugin.video.youtube/user/"+YOUTUBE_CHANNEL_IDR+"/",
+        thumbnail='https://raw.githubusercontent.com/Kawakiw/kawakodi/master/ressources/thumbnails/andimouchkil.png',
+        folder=True )
+		
+    plugintools.add_item( 
+        fanart='https://raw.githubusercontent.com/Kawakiw/kawakodi/master/ressources/fanarts/fouseytube.jpg', 
+        title="fouseyTUBE",
+        url="plugin://plugin.video.youtube/user/"+YOUTUBE_CHANNEL_IDR+"/",
+        thumbnail='https://raw.githubusercontent.com/Kawakiw/kawakodi/master/ressources/thumbnails/fouseytube.png',
+        folder=True )
+		 
+    plugintools.add_item( 
+        fanart='https://raw.githubusercontent.com/Kawakiw/kawakodi/master/ressources/fanarts/pvp.jpg', 
+        title="PrankvsPrank",
+        url="plugin://plugin.video.youtube/user/"+YOUTUBE_CHANNEL_IDR+"/",
+        thumbnail='https://raw.githubusercontent.com/Kawakiw/kawakodi/master/ressources/thumbnails/pvp.png',
+        folder=True )
+		
 run()
