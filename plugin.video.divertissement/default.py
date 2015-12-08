@@ -38,7 +38,17 @@ YOUTUBE_CHANNEL_IDR = "Hadoukentheband"
 YOUTUBE_CHANNEL_IDS = "ANDIMOCHKIL"
 YOUTUBE_CHANNEL_IDT = "fouseyTUBE"
 YOUTUBE_CHANNEL_IDU = "PrankvsPrank"
-
+YOUTUBE_CHANNEL_IDV = "ExplosmEntertainment"
+YOUTUBE_CHANNEL_IDW = "woopgang"
+YOUTUBE_CHANNEL_IDX = "UCAL3JXZSzSm8AlZyD3nQdBA"
+YOUTUBE_CHANNEL_IDY = "MagicofRahat"
+YOUTUBE_CHANNEL_IDZ = "colinfurze"
+YOUTUBE_CHANNEL_IDAA = "blackbenja11"
+YOUTUBE_CHANNEL_IDAB = "UCklLTAOBRj4DdxTazOzP_lA"
+YOUTUBE_CHANNEL_IDAC = "wardegasa"
+YOUTUBE_CHANNEL_IDAD = "msadaghd"
+YOUTUBE_CHANNEL_IDAE = "SimoSedraty"
+YOUTUBE_CHANNEL_IDAB = "edbassmaster"
 
 # Entry point
 def run():
@@ -188,22 +198,99 @@ def main_list(params):
     plugintools.add_item( 
         fanart='https://raw.githubusercontent.com/Kawakiw/kawakodi/master/ressources/fanarts/andimouchkil.jpg', 
         title="3endi Mouchkil",
-        url="plugin://plugin.video.youtube/user/"+YOUTUBE_CHANNEL_IDR+"/",
+        url="plugin://plugin.video.youtube/user/"+YOUTUBE_CHANNEL_IDS+"/",
         thumbnail='https://raw.githubusercontent.com/Kawakiw/kawakodi/master/ressources/thumbnails/andimouchkil.png',
         folder=True )
 		
     plugintools.add_item( 
         fanart='https://raw.githubusercontent.com/Kawakiw/kawakodi/master/ressources/fanarts/fouseytube.jpg', 
         title="fouseyTUBE",
-        url="plugin://plugin.video.youtube/user/"+YOUTUBE_CHANNEL_IDR+"/",
+        url="plugin://plugin.video.youtube/user/"+YOUTUBE_CHANNEL_IDT+"/",
         thumbnail='https://raw.githubusercontent.com/Kawakiw/kawakodi/master/ressources/thumbnails/fouseytube.png',
         folder=True )
 		 
     plugintools.add_item( 
         fanart='https://raw.githubusercontent.com/Kawakiw/kawakodi/master/ressources/fanarts/pvp.jpg', 
         title="PrankvsPrank",
-        url="plugin://plugin.video.youtube/user/"+YOUTUBE_CHANNEL_IDR+"/",
+        url="plugin://plugin.video.youtube/user/"+YOUTUBE_CHANNEL_IDU+"/",
         thumbnail='https://raw.githubusercontent.com/Kawakiw/kawakodi/master/ressources/thumbnails/pvp.png',
+        folder=True )
+		
+    plugintools.add_item( 
+        fanart='https://raw.githubusercontent.com/Kawakiw/kawakodi/master/ressources/fanarts/c&h.jpg', 
+        title="Cyanide & Happiness",
+        url="plugin://plugin.video.youtube/user/"+YOUTUBE_CHANNEL_IDV+"/",
+        thumbnail='https://raw.githubusercontent.com/Kawakiw/kawakodi/master/ressources/thumbnails/c&h.png',
+        folder=True )
+		
+    plugintools.add_item( 
+        fanart='https://raw.githubusercontent.com/Kawakiw/kawakodi/master/ressources/fanarts/woopgang.jpg', 
+        title="Le Woop",
+        url="plugin://plugin.video.youtube/user/"+YOUTUBE_CHANNEL_IDW+"/",
+        thumbnail='https://raw.githubusercontent.com/Kawakiw/kawakodi/master/ressources/thumbnails/woopgang.png',
+        folder=True )
+		
+    plugintools.add_item( 
+        fanart='https://raw.githubusercontent.com/Kawakiw/kawakodi/master/ressources/fanarts/primitivetechnology.jpg', 
+        title="Primitive Technology",
+        url="plugin://plugin.video.youtube/channel/"+YOUTUBE_CHANNEL_IDX+"/",
+        thumbnail='https://raw.githubusercontent.com/Kawakiw/kawakodi/master/ressources/thumbnails/primitivetechnology.png',
+        folder=True )
+		
+    plugintools.add_item( 
+        fanart='https://raw.githubusercontent.com/Kawakiw/kawakodi/master/ressources/fanarts/mor.jpg', 
+        title="Magic Of Rahat",
+        url="plugin://plugin.video.youtube/user/"+YOUTUBE_CHANNEL_IDY+"/",
+        thumbnail='https://raw.githubusercontent.com/Kawakiw/kawakodi/master/ressources/thumbnails/mor.png',
+        folder=True )
+		
+    plugintools.add_item( 
+        fanart='https://raw.githubusercontent.com/Kawakiw/kawakodi/master/ressources/fanarts/Colinfurze.jpg', 
+        title="Colinfurze",
+        url="plugin://plugin.video.youtube/user/"+YOUTUBE_CHANNEL_IDZ+"/",
+        thumbnail='https://raw.githubusercontent.com/Kawakiw/kawakodi/master/ressources/thumbnails/Colinfurze.png',
+        folder=True )
+		
+    plugintools.add_item( 
+        fanart='https://raw.githubusercontent.com/Kawakiw/kawakodi/master/ressources/fanarts/twinkieman.jpg', 
+        title="Twinkie Man",
+        url="plugin://plugin.video.youtube/user/"+YOUTUBE_CHANNEL_IDAA+"/",
+        thumbnail='https://raw.githubusercontent.com/Kawakiw/kawakodi/master/ressources/thumbnails/twinkieman.png',
+        folder=True )
+		
+    plugintools.add_item( 
+        fanart='https://raw.githubusercontent.com/Kawakiw/kawakodi/master/ressources/fanarts/yif.jpg', 
+        title="Yes it's funny!",
+        url="plugin://plugin.video.youtube/channel/"+YOUTUBE_CHANNEL_IDAB+"/",
+        thumbnail='https://raw.githubusercontent.com/Kawakiw/kawakodi/master/ressources/thumbnails/yif.png',
+        folder=True )
+		
+    plugintools.add_item( 
+        fanart='https://raw.githubusercontent.com/Kawakiw/kawakodi/master/ressources/fanarts/wardega.jpg', 
+        title="SA Wardega",
+        url="plugin://plugin.video.youtube/user/"+YOUTUBE_CHANNEL_IDAC+"/",
+        thumbnail='https://raw.githubusercontent.com/Kawakiw/kawakodi/master/ressources/thumbnails/wardega.png',
+        folder=True )
+		
+    plugintools.add_item( 
+        fanart='https://raw.githubusercontent.com/Kawakiw/kawakodi/master/ressources/fanarts/electroboom.jpg', 
+        title="ElectroBOOM",
+        url="plugin://plugin.video.youtube/user/"+YOUTUBE_CHANNEL_IDAD+"/",
+        thumbnail='https://raw.githubusercontent.com/Kawakiw/kawakodi/master/ressources/thumbnails/electroboom.png',
+        folder=True )
+		
+    plugintools.add_item( 
+        fanart='https://raw.githubusercontent.com/Kawakiw/kawakodi/master/ressources/fanarts/simosedraty.jpg', 
+        title="Simo Sedraty",
+        url="plugin://plugin.video.youtube/user/"+YOUTUBE_CHANNEL_IDAE+"/",
+        thumbnail='https://raw.githubusercontent.com/Kawakiw/kawakodi/master/ressources/thumbnails/simosedraty.png',
+        folder=True )
+		
+    plugintools.add_item( 
+        fanart='https://raw.githubusercontent.com/Kawakiw/kawakodi/master/ressources/fanarts/edbassmaster.jpg', 
+        title="Ed Bassmaster",
+        url="plugin://plugin.video.youtube/user/"+YOUTUBE_CHANNEL_IDAF+"/",
+        thumbnail='https://raw.githubusercontent.com/Kawakiw/kawakodi/master/ressources/thumbnails/edbassmaster.png',
         folder=True )
 		
 run()
