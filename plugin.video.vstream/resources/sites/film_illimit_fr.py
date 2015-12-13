@@ -1,5 +1,3 @@
-#-*- coding: utf-8 -*-
-#Venom.
 from resources.lib.gui.hoster import cHosterGui #system de recherche pour l'hote
 from resources.lib.handler.hosterHandler import cHosterHandler #system de recherche pour l'hote
 from resources.lib.gui.gui import cGui #system d'affichage pour xbmc
@@ -10,11 +8,14 @@ from resources.lib.handler.requestHandler import cRequestHandler #requete url
 from resources.lib.config import cConfig #config
 from resources.lib.parser import cParser #recherche de code
 from resources.lib.util import cUtil
- 
+import re
+
+#from resources.lib.sucuri import SucurieBypass
+import os,urllib2,urllib,xbmc,xbmcaddon,base64
  
 SITE_IDENTIFIER = 'film_illimit_fr' #identifant nom de votre fichier remplacer les espaces et les . par _ aucun caractere speciale
 SITE_NAME = 'Film Illimit' # nom que xbmc affiche
-SITE_DESC = 'Films HD en streaming' #description courte de votre source
+SITE_DESC = 'Films/Series HD en streaming' #description courte de votre source
  
 URL_MAIN = 'http://xn--official-film-illimit-v5b.fr/' # url de votre source
 
@@ -109,8 +110,7 @@ def showAlpha():
         if sTitle == '@':
             sTitle= '[0-9]'
             sUrl = 'http://xn--official-film-illimit-v5b.fr/film-de-a-a-z/0-9/'
-
-            
+          
         oOutputParameterHandler = cOutputParameterHandler()
         oOutputParameterHandler.addParameter('siteUrl', sUrl)
         oOutputParameterHandler.addParameter('sMovieTitle', sTitle)
@@ -123,16 +123,16 @@ def showAlpha():
 def showMovies(sSearch = ''):
     oGui = cGui()
     if sSearch:
+      sSearch = sSearch.replace(' ','+')
       sUrl = sSearch
     else:
         oInputParameterHandler = cInputParameterHandler()
         sUrl = oInputParameterHandler.getValue('siteUrl')
     
-    oRequestHandler = cRequestHandler(sUrl)
-    sHtmlContent = oRequestHandler.request()
+    sHtmlContent = SucurieBypass().GetHtml(sUrl)
     
-
     sPattern = '<div class="item"><a href="([^<]+)">.+?<img src="(.+?)" alt="(.+?)" />.+?<span class="calidad2">(.+?)</span>'
+    #sPattern = '<div class="item">.*<a href="([^<]+)">.+?<img src="(.+?)" alt="(.+?)" \/>.+?<span class="calidad2">(.+?)<\/span>'
     oParser = cParser()
     aResult = oParser.parse(sHtmlContent, sPattern)
    
@@ -147,17 +147,29 @@ def showMovies(sSearch = ''):
             cConfig().updateDialog(dialog, total) #dialog
             if dialog.iscanceled():
                 break
-           
-            sTitle = aEntry[2]+ ' [COLOR coral] '+aEntry[3]+'[/COLOR]'
+                
+            sName = aEntry[2].replace(' en Streaming HD','')
+            sName = sName.replace(' Streaming HD','')
+            sName = cUtil().unescape(sName)
+            try:
+                sName = sName.encode("utf-8")
+            except:
+                pass
+            
+            sTitle = sName + ' [COLOR coral] ' + aEntry[3] + '[/COLOR]'
             sUrl = aEntry[0].replace('http://official-film-illimité.fr', 'http://xn--official-film-illimit-v5b.fr')
             sThumbnail = aEntry[1].replace('http://official-film-illimité.fr', 'http://xn--official-film-illimit-v5b.fr')
 
             oOutputParameterHandler = cOutputParameterHandler()
             oOutputParameterHandler.addParameter('siteUrl', str(sUrl))
-            oOutputParameterHandler.addParameter('sMovieTitle', str(aEntry[2]))
-            oOutputParameterHandler.addParameter('sThumbnail', str(sThumbnail)) #sortis du poster
- 
-            oGui.addMovie(SITE_IDENTIFIER, 'showHosters', sTitle, 'films.png', sThumbnail, '', oOutputParameterHandler)
+            oOutputParameterHandler.addParameter('sMovieTitle', sName)
+            oOutputParameterHandler.addParameter('sThumbnail', str(sThumbnail))
+            
+            if re.match('.+?saison [0-9]+',sTitle,re.IGNORECASE):
+                oGui.addTV(SITE_IDENTIFIER, 'serieHosters', sTitle, '', sThumbnail,'', oOutputParameterHandler)
+            else:
+                oGui.addMovie(SITE_IDENTIFIER, 'showHosters', sTitle, 'films.png', sThumbnail, '', oOutputParameterHandler)
+            
  
         cConfig().finishDialog(dialog)
            
@@ -189,8 +201,12 @@ def showHosters():
     sMovieTitle = oInputParameterHandler.getValue('sMovieTitle')
     sThumbnail = oInputParameterHandler.getValue('sThumbnail')
  
-    oRequestHandler = cRequestHandler(sUrl)
-    sHtmlContent = oRequestHandler.request()
+    sHtmlContent = SucurieBypass().GetHtml(sUrl)
+    
+    #fh = open('c:\\test.txt', "w")
+    #fh.write(sHtmlContent)
+    #fh.close()
+    
     sHtmlContent = sHtmlContent.replace('<iframe width="420" height="315" src="https://www.youtube.com/', '')
     sPattern = '<iframe.+?src="(.+?)"'
     
@@ -209,5 +225,185 @@ def showHosters():
                 oHoster.setFileName(sMovieTitle)
                 cHosterGui().showHoster(oGui, oHoster, sHosterUrl, sThumbnail)
        
-    oGui.setEndOfDirectory()  
+    oGui.setEndOfDirectory()
     
+def serieHosters():
+    oGui = cGui()
+   
+    oInputParameterHandler = cInputParameterHandler()
+    sUrl = oInputParameterHandler.getValue('siteUrl')
+    sMovieTitle = oInputParameterHandler.getValue('sMovieTitle')
+    sThumbnail = oInputParameterHandler.getValue('sThumbnail')
+ 
+    sHtmlContent = SucurieBypass().GetHtml(sUrl)
+
+    sHtmlContent = sHtmlContent.replace('<iframe width="420" height="315" src="https://www.youtube.com/', '')
+    sPattern = '<div class="su-tabs-pane su-clearfix"><iframe src="(.+?)"[^<>]+?><\/iframe><\/div>'
+    
+    oParser = cParser()
+    aResult = oParser.parse(sHtmlContent, sPattern)
+   
+    if (aResult[0] == True):
+        i = 1
+        for aEntry in aResult[1]:
+                
+            sHosterUrl = str(aEntry)
+            oHoster = cHosterGui().checkHoster(sHosterUrl)
+            
+            sTitle = sMovieTitle + 'episode ' + str(i)
+            sDisplayTitle = cUtil().DecoTitle(sTitle)
+            
+            i = i + 1
+ 
+            if (oHoster != False):
+                oHoster.setDisplayName(sDisplayTitle)
+                oHoster.setFileName(sTitle)
+                cHosterGui().showHoster(oGui, oHoster, sHosterUrl, sThumbnail)
+       
+    oGui.setEndOfDirectory()
+    
+#***********************************************************************************************************************
+#fusion fichier
+#***********************************************************************************************************************
+PathCache = xbmc.translatePath(xbmcaddon.Addon('plugin.video.vstream').getAddonInfo("profile"))
+UA = 'Mozilla/5.0 (Windows; U; Windows NT 5.1; de-DE; rv:1.9.0.3) Gecko/2008092417 Firefox/3.0.3'
+
+class NoRedirection(urllib2.HTTPErrorProcessor):    
+    def http_response(self, request, response):
+        return response
+
+class SucurieBypass(object):
+
+    def __init__(self):
+        self.state = False
+        self.hostComplet = ''
+        self.host = ''
+        self.url = ''
+                       
+    def DeleteCookie(self,Domain):
+        print 'Effacement cookies'
+        file = os.path.join(PathCache,'Cookie_'+ str(Domain) +'.txt')
+        os.remove(os.path.join(PathCache,file))
+        
+    def SaveCookie(self,Domain,data):
+        Name = os.path.join(PathCache,'Cookie_'+ str(Domain) +'.txt')
+
+        #save it
+        file = open(Name,'w')
+        file.write(data)
+
+        file.close()
+        
+    def Readcookie(self,Domain):
+        Name = os.path.join(PathCache,'Cookie_'+ str(Domain) +'.txt')
+        
+        try:
+            file = open(Name,'r')
+            data = file.read()
+            file.close()
+        except:
+            return ''
+        
+        return data
+          
+    def DecryptCookie(self,htmlcontent):
+        match = re.search("S\s*=\s*'([^']+)", htmlcontent)
+        if match:
+            s = base64.b64decode(match.group(1))
+            s = s.replace(' ', '')
+            s = re.sub('String\.fromCharCode\(([^)]+)\)', r'chr(\1)', s)
+            s = re.sub('\.slice\((\d+),(\d+)\)', r'[\1:\2]', s)
+            s = re.sub('\.charAt\(([^)]+)\)', r'[\1]', s)
+            s = re.sub('\.substr\((\d+),(\d+)\)', r'[\1:\1+\2]', s)
+            s = re.sub(';location.reload\(\);', '', s)
+            s = re.sub(r'\n', '', s)
+            s = re.sub(r'document\.cookie', 'cookie', s)
+            try:
+                cookie = ''
+                #print s
+                exec(s)
+                match = re.match('([^=]+)=(.*)', cookie)
+                if match:
+                    return match.group(1) + '=' + match.group(2)
+            except:
+                print 'Erreur decodage sucuri'
+                
+        return None
+        
+    #Return param for head
+    def GetHeadercookie(self,url):
+        #urllib.quote_plus()
+        Domain = re.sub(r'https*:\/\/([^/]+)(\/*.*)','\\1',url)
+        cook = self.Readcookie(Domain.replace('.','_'))
+        if cook == '':
+            return ''
+            
+        return '|' + urllib.urlencode({'User-Agent':UA,'Cookie': cook })   
+     
+    def CheckIfActive(self,html):
+        if 'sucuri_cloudproxy_js' in html:
+            return True
+        return False
+        
+        
+    def SetHeader(self):
+        head=[]
+        head.append(('User-Agent', UA))
+        head.append(('Host' , self.host))
+        head.append(('Accept', 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'))
+        head.append(('Referer', self.url))
+        head.append(('Content-Type', 'text/html; charset=utf-8'))
+        head.append(('Accept-Encoding', 'identity'))
+        return head
+        
+    def GetHtml(self,url):
+        self.hostComplet = re.sub(r'(https*:\/\/[^/]+)(\/*.*)','\\1',url)
+        self.host = re.sub(r'https*:\/\/','',self.hostComplet)
+        self.url = url
+                  
+        #on cherche des precedents cookies
+        cookies = self.Readcookie(self.host.replace('.','_'))
+
+        htmlcontent = self.htmlrequest(url,cookies)
+
+        if not self.CheckIfActive(htmlcontent):
+            # ok pas de protection
+            return htmlcontent
+        
+        #on cherche le nouveau cookie
+        cookies = self.DecryptCookie(htmlcontent)
+        if not cookies:
+            print 'Erreur sucuri decodage'
+            return ''
+            
+        print 'Protection Sucuri active'
+        
+        #on sauve le nouveau cookie
+        self.SaveCookie(self.host.replace('.','_'),cookies)
+        
+        #et on recommence
+        htmlcontent = self.htmlrequest(url,cookies)
+        
+        return htmlcontent
+        
+    def htmlrequest(self,url,cookies = ''):
+        
+        opener = urllib2.build_opener(NoRedirection)
+        opener.addheaders = self.SetHeader()
+        
+        if cookies:
+            opener.addheaders.append(('Cookie', cookies))
+        
+        response = opener.open(url)
+        htmlcontent = response.read()
+        response.close()
+        
+        if response.info().get('Content-Encoding') == 'gzip':
+            print 'contenu zippe'
+            import gzip
+            from StringIO import StringIO
+            buf = StringIO(htmlcontent)
+            f = gzip.GzipFile(fileobj=buf)
+            htmlcontent = f.read()
+            
+        return htmlcontent
