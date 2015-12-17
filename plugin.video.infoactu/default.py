@@ -26,6 +26,7 @@ YOUTUBE_CHANNEL_IDF = "euronewsfr"
 YOUTUBE_CHANNEL_IDG = "france24"
 YOUTUBE_CHANNEL_IDH = "onpcofficielle"
 YOUTUBE_CHANNEL_IDI = "tv5monde"
+YOUTUBE_CHANNEL_IDJ = "UC5ypXwzRNdwY1JC-3qiqCiw"
 
 # Entry point
 def run():
@@ -107,6 +108,13 @@ def main_list(params):
         title="TV5 Monde",
         url="plugin://plugin.video.youtube/user/"+YOUTUBE_CHANNEL_IDI+"/",
         thumbnail='https://raw.githubusercontent.com/Kawakiw/kawakodi/master/ressources/thumbnails/tv5monde.png',
+        folder=True )
+		
+     plugintools.add_item( 
+        fanart='https://raw.githubusercontent.com/Kawakiw/kawakodi/master/ressources/fanarts/lmouhimdelinfo.jpg', 
+        title="Al Mouhim De L'Info",
+        url="plugin://plugin.video.youtube/channel/"+YOUTUBE_CHANNEL_IDJ+"/",
+        thumbnail='https://raw.githubusercontent.com/Kawakiw/kawakodi/master/ressources/thumbnails/lmouhimdelinfo.png',
         folder=True )
 
 run()
