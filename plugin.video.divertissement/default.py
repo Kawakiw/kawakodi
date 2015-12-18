@@ -49,6 +49,8 @@ YOUTUBE_CHANNEL_IDAC = "wardegasa"
 YOUTUBE_CHANNEL_IDAD = "msadaghd"
 YOUTUBE_CHANNEL_IDAE = "SimoSedraty"
 YOUTUBE_CHANNEL_IDAF = "edbassmaster"
+YOUTUBE_CHANNEL_IDAG = "gonzaguetv"
+YOUTUBE_CHANNEL_IDAH = "allonewordplease"
 
 # Entry point
 def run():
@@ -291,6 +293,20 @@ def main_list(params):
         title="Ed Bassmaster",
         url="plugin://plugin.video.youtube/user/"+YOUTUBE_CHANNEL_IDAF+"/",
         thumbnail='https://raw.githubusercontent.com/Kawakiw/kawakodi/master/ressources/thumbnails/edbassmaster.png',
+        folder=True )
+		
+    plugintools.add_item( 
+        fanart='https://raw.githubusercontent.com/Kawakiw/kawakodi/master/ressources/fanarts/gonzaguetv.jpg', 
+        title="Gonzague TV",
+        url="plugin://plugin.video.youtube/user/"+YOUTUBE_CHANNEL_IDAG+"/",
+        thumbnail='https://raw.githubusercontent.com/Kawakiw/kawakodi/master/ressources/thumbnails/gonzaguetv.png',
+        folder=True )
+		
+    plugintools.add_item( 
+        fanart='https://raw.githubusercontent.com/Kawakiw/kawakodi/master/ressources/fanarts/jiwis.jpg', 
+        title="Jiwi's Machines",
+        url="plugin://plugin.video.youtube/user/"+YOUTUBE_CHANNEL_IDAH+"/",
+        thumbnail='https://raw.githubusercontent.com/Kawakiw/kawakodi/master/ressources/thumbnails/jiwis.png',
         folder=True )
 		
 run()
