@@ -27,6 +27,10 @@ YOUTUBE_CHANNEL_IDG = "france24"
 YOUTUBE_CHANNEL_IDH = "onpcofficielle"
 YOUTUBE_CHANNEL_IDI = "tv5monde"
 YOUTUBE_CHANNEL_IDJ = "UC5ypXwzRNdwY1JC-3qiqCiw"
+YOUTUBE_CHANNEL_IDK = "wwwy2000"
+YOUTUBE_CHANNEL_IDL = "Le360Live"
+YOUTUBE_CHANNEL_IDM = "H24InfoTV"
+YOUTUBE_CHANNEL_IDN = "choufmedia"
 
 # Entry point
 def run():
@@ -115,6 +119,34 @@ def main_list(params):
         title="Al Mouhim De L'Info",
         url="plugin://plugin.video.youtube/channel/"+YOUTUBE_CHANNEL_IDJ+"/",
         thumbnail='https://raw.githubusercontent.com/Kawakiw/kawakodi/master/ressources/thumbnails/lmouhimdelinfo.png',
+        folder=True )
+		
+    plugintools.add_item( 
+        fanart='https://raw.githubusercontent.com/Kawakiw/kawakodi/master/ressources/fanarts/le360.jpg', 
+        title="Le 360",
+        url="plugin://plugin.video.youtube/user/"+YOUTUBE_CHANNEL_IDL+"/",
+        thumbnail='https://raw.githubusercontent.com/Kawakiw/kawakodi/master/ressources/thumbnails/le360.png',
+        folder=True )
+		
+    plugintools.add_item( 
+        fanart='https://raw.githubusercontent.com/Kawakiw/kawakodi/master/ressources/fanarts/h24info.jpg', 
+        title="H24 Info",
+        url="plugin://plugin.video.youtube/user/"+YOUTUBE_CHANNEL_IDM+"/",
+        thumbnail='https://raw.githubusercontent.com/Kawakiw/kawakodi/master/ressources/thumbnails/h24info.png',
+        folder=True )
+		
+    plugintools.add_item( 
+        fanart='https://raw.githubusercontent.com/Kawakiw/kawakodi/master/ressources/fanarts/chouftv.jpg', 
+        title="Chouf TV",
+        url="plugin://plugin.video.youtube/user/"+YOUTUBE_CHANNEL_IDN+"/",
+        thumbnail='https://raw.githubusercontent.com/Kawakiw/kawakodi/master/ressources/thumbnails/chouftv.png',
+        folder=True )
+		
+    plugintools.add_item( 
+        fanart='https://raw.githubusercontent.com/Kawakiw/kawakodi/master/ressources/fanarts/poursuites.jpg', 
+        title="Poursuites",
+        url="plugin://plugin.video.youtube/user/"+YOUTUBE_CHANNEL_IDK+"/",
+        thumbnail='https://raw.githubusercontent.com/Kawakiw/kawakodi/master/ressources/thumbnails/poursuites.png',
         folder=True )
 
 run()
