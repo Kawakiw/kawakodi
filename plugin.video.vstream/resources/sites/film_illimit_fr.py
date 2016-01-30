@@ -12,7 +12,7 @@ from resources.lib.parser import cParser
 from resources.lib.util import cUtil
 import re
 
-#from resources.lib.sucuri import SucurieBypass
+from resources.lib.sucuri import SucurieBypass
  
 SITE_IDENTIFIER = 'film_illimit_fr'
 SITE_NAME = 'Film illimite'
@@ -25,7 +25,7 @@ MOVIE_NEWS = (URL_MAIN + 'film-de-a-a-z/', 'showMovies')
 MOVIE_MOVIE = (True, 'showAlpha')
 MOVIE_GENRES = (True, 'showGenre')
 
-#SERIE_SERIES = ('http://official-film-illimité.fr/serie-tv/', 'showMovies')
+SERIE_NEWS = (URL_MAIN + 'serie-tv/', 'showMovies')
   
 URL_SEARCH = (URL_MAIN + '?s=', 'showMovies')
  
@@ -48,11 +48,10 @@ def load():
     oOutputParameterHandler.addParameter('siteUrl', MOVIE_GENRES[0])
     oGui.addDir(SITE_IDENTIFIER, 'showGenre', 'Films par Genres', 'genres.png', oOutputParameterHandler)
     
-    # oOutputParameterHandler = cOutputParameterHandler()
-    # oOutputParameterHandler.addParameter('siteUrl', SERIE_SERIES[0])
-    # oGui.addDir(SITE_IDENTIFIER, 'showMovies', 'Séries', 'series.png', oOutputParameterHandler)
-    
-           
+    oOutputParameterHandler = cOutputParameterHandler()
+    oOutputParameterHandler.addParameter('siteUrl', SERIE_NEWS[0])
+    oGui.addDir(SITE_IDENTIFIER, SERIE_NEWS[1], 'Séries', 'series.png', oOutputParameterHandler)
+            
     oGui.setEndOfDirectory()
  
 def showSearch():
@@ -131,16 +130,15 @@ def showMovies(sSearch = ''):
         oInputParameterHandler = cInputParameterHandler()
         sUrl = oInputParameterHandler.getValue('siteUrl')
     
-    oRequestHandler = cRequestHandler(sUrl)
-    sHtmlContent = oRequestHandler.request()
-    #sHtmlContent = SucurieBypass().GetHtml(sUrl)
-    
-    
+    #oRequestHandler = cRequestHandler(sUrl)
+    #sHtmlContent = oRequestHandler.request()
+    sHtmlContent = SucurieBypass().GetHtml(sUrl)
+
     #fh = open('c:\\test.txt', "w")
     #fh.write(sHtmlContent)
     #fh.close()
     
-    sPattern = '<div class="item"> <a href="([^<]+)">.+?<img src="([^<>"]+?)" alt="([^"]+?)".+?<span class="calidad2">(.+?)<\/span>'
+    sPattern = '<div class="item"> *<a href="([^<]+)">.+?<img src="([^<>"]+?)" alt="([^"]+?)".+?<span class="calidad2">(.+?)<\/span>'
     oParser = cParser()
     aResult = oParser.parse(sHtmlContent, sPattern)
    
@@ -186,21 +184,21 @@ def showMovies(sSearch = ''):
         cConfig().finishDialog(dialog)
            
         if not sSearch:
-            sNextPage = __checkForNextPage(sHtmlContent)#cherche la page suivante
+            sNextPage = __checkForNextPage(sHtmlContent)
             if (sNextPage != False):
                 oOutputParameterHandler = cOutputParameterHandler()
                 oOutputParameterHandler.addParameter('siteUrl', sNextPage)
                 oGui.addNext(SITE_IDENTIFIER, 'showMovies', '[COLOR teal]Next >>>[/COLOR]' , oOutputParameterHandler)
  
     if not sSearch:
-        oGui.setEndOfDirectory() #ferme l'affichage
+        oGui.setEndOfDirectory()
    
-def __checkForNextPage(sHtmlContent): #cherche la page suivante
+def __checkForNextPage(sHtmlContent):
     sPattern = "<span class='current'>.+?</span><a rel='nofollow' class='page larger' href='(.+?)'>.+?</a>"
     oParser = cParser()
     aResult = oParser.parse(sHtmlContent, sPattern)
     if (aResult[0] == True):
-        return next
+        return aResult[1][0]
  
     return False
  
@@ -212,9 +210,9 @@ def showHosters():
     sMovieTitle = oInputParameterHandler.getValue('sMovieTitle')
     sThumbnail = oInputParameterHandler.getValue('sThumbnail')
     
-    oRequestHandler = cRequestHandler(sUrl)
-    sHtmlContent = oRequestHandler.request() 
-    #sHtmlContent = SucurieBypass().GetHtml(sUrl)
+    #oRequestHandler = cRequestHandler(sUrl)
+    #sHtmlContent = oRequestHandler.request() 
+    sHtmlContent = SucurieBypass().GetHtml(sUrl)
     
     sHtmlContent = sHtmlContent.replace('<iframe width="420" height="315" src="https://www.youtube.com/', '')
     sPattern = '<iframe.+?src="(http.+?)"'
@@ -247,9 +245,9 @@ def serieHosters():
     sMovieTitle = oInputParameterHandler.getValue('sMovieTitle')
     sThumbnail = oInputParameterHandler.getValue('sThumbnail')
     
-    oRequestHandler = cRequestHandler(sUrl)
-    sHtmlContent = oRequestHandler.request()
-    #sHtmlContent = SucurieBypass().GetHtml(sUrl)
+    #oRequestHandler = cRequestHandler(sUrl)
+    #sHtmlContent = oRequestHandler.request()
+    sHtmlContent = SucurieBypass().GetHtml(sUrl)
 
     sHtmlContent = sHtmlContent.replace('<iframe width="420" height="315" src="https://www.youtube.com/', '')
     sPattern = '<div class="su-tabs-pane su-clearfix"><iframe.+?src="(http.+?)"[^<>]+?><\/iframe><\/div>'
@@ -275,4 +273,5 @@ def serieHosters():
                 cHosterGui().showHoster(oGui, oHoster, sHosterUrl, sThumbnail)
        
     oGui.setEndOfDirectory()
+    
     
