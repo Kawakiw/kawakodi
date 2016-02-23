@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<strings>
+    <string id="30001">%s last added</string>
+    <string id="30002">Domain</string>
+    <string id="30003">Choose a source</string>
+    <string id="30004">Ciné Fr</string>
+    <string id="30005">Accessing video source</string>
+    <string id="30006">By genres</string>
+    <string id="30007">Number of movies per page</string>
+    <string id="30008">By release year</string>
+    <string id="30009">%s highest rated</string>
+    <string id="30010">%s most popular</string>
+    <string id="30011">Search</string>
+    <string id="30012">By title</string>
+    <string id="30013">Your film research corresponding to [I]%s[/I]  returns no result. Make sure your keywords are correct or try a new search with other keywords.</string>
+    <string id="30014">Movie informations</string>
+    <string id="30015">Search Result</string>
+    <string id="30016">%s px source</string>
+    <string id="30017">Ciné Fr add-on cannot connect to seveur. Check that you have entered the correct login/password into add-on settings or that your internet connection is functional.</string>
+    <string id="30018">Connection refused</string>
+    <string id="30019">Email adress</string>
+    <string id="30020">Password</string>
+    <string id="30021">Login</string>
+    <string id="30022">Display</string>
+    <string id="30023">By country</string>
+    <string id="30024">Administration</string>
+    <string id="30025">Activate debug mode</string>
+    <string id="30026">%s random movies</string>
+    <string id="30027">Video source selection</string>
+</strings>

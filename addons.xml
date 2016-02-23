@@ -192,6 +192,28 @@
   </extension>
 </addon>
 
+<addon id="plugin.video.streamingvf" name="Streaming VF" version="2.0.0" provider-name="Sourakh">
+    <requires>
+        <import addon="xbmc.python" version="2.1.0"/>
+        <import addon="plugin.video.youtube" version="4.4.0"/>
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <platform>all</platform>
+        <summary lang="fr">Regarder des films en français</summary>
+        <summary lang="en">Watch movies in French.</summary>
+        <description lang="fr">Cet add-on vous propose de regarder des films en français à partir des flux vidéo disponibles sur internet. Les films proposés sont classés par contenu avec une description détaillée.</description>
+        <description lang="en">This add-on allows you to watch french movies from videos stream available online. The proposed movies are categorized by content with a detailed description.</description>
+		<disclaimer lang="fr">L'auteur n'hébèrge, ni ne distribue le contenu affiché par cette extension. L'auteur n'a également aucune affiliation avec le fournisseur du contenu.</disclaimer>
+		<disclaimer lang="en">The author does not host or distribute any of the content displayed by this addon. The author does not have any affiliation with the content provider.</disclaimer>
+		<forum>https://goo.gl/ndCX8n</forum>
+		<source>https://goo.gl/ndCX8n</source>
+		<website>https://goo.gl/ndCX8n</website>
+    </extension>
+</addon>
+
 <addon id="plugin.video.vstream" name="vStream" version="0.4.9" provider-name="Venom,TmpName">
   <requires>
 	<import addon="script.module.metahandler" version="1.0.2"/>

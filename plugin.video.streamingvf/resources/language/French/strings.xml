@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<strings>
+    <string id="30001">Les %s derniers ajouts</string>
+    <string id="30002">Domaine</string>
+    <string id="30003">Choisir une source</string>
+    <string id="30004">Ciné Fr</string>
+    <string id="30005">Accés à la source vidéo</string>
+    <string id="30006">Par genre</string>
+    <string id="30007">Nombre de films par page</string>
+    <string id="30008">Par année de sortie</string>
+    <string id="30009">Les %s mieux notés</string>
+    <string id="30010">Les %s plus populaires</string>
+    <string id="30011">Rechercher</string>
+    <string id="30012">Par titre</string>
+    <string id="30013">Votre recherche de film correspondant à [I]%s[/I]  ne retourne aucun résultat. Assurez-vous que vos mots-clés sont corrects ou bien essayez une nouvelle recherche avec d'autres mots-clés.</string>
+    <string id="30014">Informations film</string>
+    <string id="30015">Résultat de la recherche</string>
+    <string id="30016">Source %s px</string>
+    <string id="30017">L'extension Ciné Fr ne peut pas se connecter au serveur. Vérifier que vous avez entré les bons identifiants dans les paramètres de l'extension.</string>
+    <string id="30018">Connexion refusée</string>
+    <string id="30019">Adresse courriel</string>
+    <string id="30020">Mot de passe</string>
+    <string id="30021">Identifiants</string>
+    <string id="30022">Affichage</string>
+    <string id="30023">Par pays</string>
+    <string id="30024">Administration</string>
+    <string id="30025">Activer le mode debug</string>
+    <string id="30026">%s films au hasard</string>
+    <string id="30027">Sélection de la source vidéo</string>
+</strings>

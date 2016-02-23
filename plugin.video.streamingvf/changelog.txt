@@ -1,0 +1,115 @@
+[B]1.3.3[/B]
+. Fix uptostream scraper for multilanguage sources.
+
+[B]1.3.2[/B]
+. Improve uptostream scraper.
+
+[B]1.3.1[/B]
+. Add videomega scraper.
+. Add uptostream scraper.
+. Add disclaimer.
+ 
+[B]1.3.0[/B]
+. Remove urlresolver dependencies.
+. Add internal python scrapers support.
+. Add youwatch scraper.
+ 
+[B]1.2.14[/B]
+. Force addon sign-in
+. Add movie informations entry to context menu.
+
+[B]1.2.13[/B]
+. Add source selection as option.
+. Fix resolution list display order.
+
+[B]1.2.12[/B]
+. Fix default player.
+. Fix Kodi Jarvis compatibility.
+
+[B]1.2.11[/B]
+. Improve movie numbers display option.
+
+[B]1.2.10[/B]
+. Fix Url Resolver dependencies.
+
+[B]1.2.9[/B]
+. Fix film duration display.
+
+[B]1.2.8[/B]
+. Add urlresolver support.
+
+[B]1.2.7[/B]
+. Add uptostream support.
+. Remove flashx.tv support.
+. Remove adult movies support.
+
+[B]1.2.6[/B]
+. Add flashx.tv support.
+
+[B]1.2.5[/B]
+. Add adult movies support.
+
+[B]1.2.4[/B]
+. Domain change.
+
+[B]1.2.3[/B]
+. Add random sort support.
+
+[B]1.2.2[/B]
+. Add debug mode.
+
+[B]1.2.1[/B]
+. Reduce required version number for dependencies.
+
+[B]1.2.0[/B]
+. Add Trailers support.
+
+[B]1.1.0[/B]
+. Add country information.
+. Add country sort support.
+
+[B]1.0.6[/B]
+. Fix multi-source playing problem.
+
+[B]1.0.5[/B]
+. Fix number of movies limitation display into year, title and genre categories.
+. Add navigation support into year, title and genre categories.
+
+[B]1.0.4[/B]
+. Fix string bug with english version.
+
+[B]1.0.3[/B]
+. Add login options.
+. Increase max movies per page to 100.
+. Display number of diplayed movies into menu.
+
+[B]1.0.2[/B]
+. Fix displayed infos during play.
+. Fix popular movies play.
+
+[B]1.0.1[/B]
+. Fix sort display.
+. Clean code.
+
+[B]1.0.0[/B]
+. Add genre sort support.
+. Add year sort support.
+. Add best rated sort support.
+. Add most popular support.
+. Add search engine.
+
+[B]0.0.4[/B]
+. Add source resolution info.
+. Fix current playing movie title and poster.
+. Add option to select number of last movies displayed.
+. Fix movies views.
+
+[B]0.0.3[/B]
+. Add icon and fanart images.
+
+[B]0.0.2[/B]
+. Add movies informations support.
+. Add movies poster and fanart support.
+
+[B]0.0.1[/B]
+. First working version.
