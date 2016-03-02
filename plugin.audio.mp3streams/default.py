@@ -43,7 +43,7 @@ if GOTHAM_FIX_2:
 
 def newPlay(pl, clear):
     if clear or (not xbmc.Player().isPlayingAudio()):
-        xbmc.Player(xbmc.PLAYER_CORE_DVDPLAYER).play(pl)
+        xbmc.Player(xbmc.PLAYER_CORE_VideoPlayer).play(pl)
 
 def open_url(url):
     req = urllib2.Request(url)

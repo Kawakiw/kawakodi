@@ -2,7 +2,7 @@
 <addons>
 <addon id="plugin.audio.mp3streams"
        name="MP3 Streams"
-       version="1.1.9"
+       version="1.2.0"
        provider-name="kinkin, spoyser, art by Marquerite">
     <requires>
         <import addon="xbmc.python" version="2.1.0"/>
@@ -232,6 +232,24 @@ Plugin to watch IPTV free worldwide</description>
     <website>https://code.google.com/p/p2p-strm/</website>
     <platform>all</platform>
   </extension>
+</addon>
+
+<addon id="plugin.video.sourakhupdates" name="Sourakh Updates" version="0.12.0" provider-name="Sourakh">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video executable</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+		<summary lang="en">Sourakh Updates</summary>
+		<description lang="en">In this wizard you will find the latest Sourakh build</description>
+		<disclaimer lang="en">Updates included are the following:.</disclaimer>
+		<forum>http://sourakh.com/</forum>
+		<source>http://sourakh.com/</source>
+		<website>https://sourakh.com/</website>
+		<platform>all</platform>
+	</extension>
 </addon>
 
 <addon
