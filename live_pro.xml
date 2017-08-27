@@ -197,12 +197,12 @@
 
 <item>
 <title>Canal+ Cinéma</title>
-<link>plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&amp;url=http://185.2.83.209:8000/live/123456/123456/314.ts</link>
+<link>plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&amp;url=http://ok1.se:8000/live/Scott22/Scott22/3240.ts</link>
 <thumbnail>http://www.dvbxtreme.com/wp-content/uploads/2016/08/Canal-Cinema-logo.png</thumbnail>
 
 <item>
 <title>Canal+ Classic</title>
-<link>plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&amp;url=http://185.2.83.209:8000/live/123456/123456/308.ts</link>
+<link>plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&amp;url=http://ok1.se:8000/live/Scott22/Scott22/8563.ts</link>
 <thumbnail>https://upload.wikimedia.org/wikipedia/en/thumb/3/3e/Cine%2B_Classic_logo_2011.svg/1200px-Cine%2B_Classic_logo_2011.svg.png</thumbnail>
 
 <item>
@@ -212,7 +212,7 @@
 
 <item>
 <title>Canal+ Décalé</title>
-<link>plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&amp;url=http://185.2.83.209:8000/live/123456/123456/315.ts</link>
+<link>plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&amp;url=http://ok1.se:8000/live/Scott22/Scott22/8577.ts</link>
 <thumbnail>https://upload.wikimedia.org/wikipedia/fr/thumb/9/91/Canal%2B_D%C3%A9cal%C3%A9_2013.svg/321px-Canal%2B_D%C3%A9cal%C3%A9_2013.svg.png</thumbnail>
 
 <item>
