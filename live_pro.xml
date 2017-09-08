@@ -34,6 +34,17 @@
 <title>LCI</title>
 <link>plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&amp;url=http://xtream.hopto.me:9000/live/9/9/11090.ts</link>
 <thumbnail>http://www.dvbxtreme.com/wp-content/uploads/2016/07/lci-logo.jpg</thumbnail>
+  
+<item>
+<title>Baraem</title>
+<link>plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&amp;url=http://194.88.105.20:8080/live/william/william/2444.ts</link>
+<thumbnail>https://yt3.ggpht.com/-vizU9m8XnnQ/AAAAAAAAAAI/AAAAAAAAAAA/dmclUymAYOQ/s900-c-k-no-mo-rj-c0xffffff/photo.jpg</thumbnail>
+  
+<item>
+<title>Al Majd Kids</title>
+<link>plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&amp;url=http://194.88.105.20:8080/live/william/william/3481.ts</link>
+<thumbnail>https://1.bp.blogspot.com/-NoJwFi3mNY4/WFcdZElrK8I/AAAAAAAAPxk/lyOs1IK-X9cwJvSuQwXC5Et7QPHZNmi7ACLcB/s1600/download%2B%25281%2529.jpg</thumbnail>
+
 
 <item>
 <title>TV Tamazight</title>
