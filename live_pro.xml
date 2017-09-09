@@ -2,37 +2,37 @@
 
 <item>
 <title>TF1</title>
-<link>plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&amp;url=http://193.70.116.156:8080/live/aliguner1/fIZgJmqKp2/882.ts</link>
+<link>plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&amp;url=http://62.210.245.19:8000/live/testapp/testapp/140.ts</link>
 <thumbnail>http://www.leprive.org/images/logos/tf1.png</thumbnail>
 
 <item>
 <title>France 2</title>
-<link>plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&amp;url=http://193.70.116.156:8080/live/aliguner1/fIZgJmqKp2/902.ts</link>
+<link>plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&amp;url=http://62.210.245.19:8000/live/testapp/testapp/141.ts</link>
 <thumbnail>https://staticftv-a.akamaihd.net/arches/france2/default/img/og-image.jpg?20161007</thumbnail>
 
 <item>
 <title>France 3</title>
-<link>plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&amp;url=http://193.70.116.156:8080/live/aliguner1/fIZgJmqKp2/901.ts</link>
+<link>plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&amp;url=http://62.210.245.19:8000/live/testapp/testapp/22.ts</link>
 <thumbnail>https://staticftv-a.akamaihd.net/arches/france3/default/img/og-image.jpg?20161007</thumbnail>
 
 <item>
 <title>France 4</title>
-<link>plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&amp;url=http://193.70.116.156:8080/live/aliguner1/fIZgJmqKp2/900.ts</link>
+<link>plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&amp;url=http://62.210.245.19:8000/live/testapp/testapp/23.ts</link>
 <thumbnail>https://staticftv-a.akamaihd.net/arches/france4/default/img/og-image.jpg?20161007</thumbnail>
 
 <item>
 <title>France 5</title>
-<link>plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&amp;url=http://193.70.116.156:8080/live/aliguner1/fIZgJmqKp2/899.ts</link>
+<link>plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&amp;url=http://62.210.245.19:8000/live/testapp/testapp/24.ts</link>
 <thumbnail>https://staticftv-a.akamaihd.net/arches/france5/default/img/og-image.jpg?20161007</thumbnail>
 
 <item>
 <title>France 24</title>
-<link>plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&amp;url=http://193.70.116.156:8080/live/aliguner1/fIZgJmqKp2/2529.ts</link>
+<link>plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&amp;url=http://62.210.245.19:8000/live/testapp/testapp/153.ts</link>
 <thumbnail>https://upload.wikimedia.org/wikipedia/fr/thumb/2/24/Logos_FRANCE24_RVB_2013.svg/768px-Logos_FRANCE24_RVB_2013.svg.png</thumbnail>
 
 <item>
 <title>LCI</title>
-<link>plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&amp;url=http://xtream.hopto.me:9000/live/9/9/11090.ts</link>
+<link>plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&amp;url=http://62.210.245.19:8000/live/testapp/testapp/40.ts</link>
 <thumbnail>http://www.dvbxtreme.com/wp-content/uploads/2016/07/lci-logo.jpg</thumbnail>
   
 <item>
@@ -87,57 +87,57 @@
 
 <item>
 <title>Action</title>
-<link>plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&amp;url=http://xtream.hopto.me:9000/live/9/9/4579.ts</link>
+<link>plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&amp;url=http://62.210.245.19:8000/live/testapp/testapp/52.ts</link>
 <thumbnail>https://upload.wikimedia.org/wikipedia/commons/b/b0/Logo_Action_2014.png</thumbnail>
 
 <item>
 <title>W9</title>
-<link>plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&amp;url=http://193.70.116.156:8080/live/aliguner1/fIZgJmqKp2/2500.ts</link>
+<link>plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&amp;url=http://62.210.245.19:8000/live/testapp/testapp/28.ts</link>
 <thumbnail>http://appliscope.sfr.fr/sites/default/files/w9_and.png</thumbnail>
 
 <item>
 <title>M6</title>
-<link>plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&amp;url=http://193.70.116.156:8080/live/aliguner1/fIZgJmqKp2/858.ts</link>
+<link>plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&amp;url=http://62.210.245.19:8000/live/testapp/testapp/20.ts</link>
 <thumbnail>http://oklivetv.com/wp-content/uploads/2015/06/571px-M6-tv-logo.png</thumbnail>
 
 <item>
 <title>Arte</title>
-<link>plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&amp;url=http://193.70.116.156:8080/live/aliguner1/fIZgJmqKp2/872.ts</link>
+<link>plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&amp;url=http://62.210.245.19:8000/live/testapp/testapp/26.ts</link>
 <thumbnail>https://yt3.ggpht.com/-4HRYVxssK94/AAAAAAAAAAI/AAAAAAAAAAA/6_5RybwcxBU/s900-c-k-no-mo-rj-c0xffffff/photo.jpg</thumbnail>
 
 <item>
 <title>6ter</title>
-<link>plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&amp;url=http://193.70.116.156:8080/live/aliguner1/fIZgJmqKp2/2546.ts</link>
+<link>plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&amp;url=http://62.210.245.19:8000/live/testapp/testapp/27.ts</link>
 <thumbnail>https://cdn.firstonetv.eu/images/logos/fr/6TER.png</thumbnail>
 
 <item>
 <title>C8</title>
-<link>plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&amp;url=http://193.70.116.156:8080/live/aliguner1/fIZgJmqKp2/2501.ts</link>
+<link>plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&amp;url=http://62.210.245.19:8000/live/testapp/testapp/70.ts</link>
 <thumbnail>http://www.webmaster-gratuit.com/pict/fb-c8.png</thumbnail>
 
 <item>
 <title>SyFy</title>
-<link>plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&amp;url=http://193.70.116.156:8080/live/aliguner1/fIZgJmqKp2/2537.ts</link>
+<link>plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&amp;url=http://62.210.245.19:8000/live/testapp/testapp/46.ts</link>
 <thumbnail>http://www.syfy.com/sites/syfy/files/tve_auth2/Syfylogo.png</thumbnail>
 
 <item>
 <title>France ô</title>
-<link>plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&amp;url=http://193.70.116.156:8080/live/aliguner1/fIZgJmqKp2/903.ts</link>
+<link>plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&amp;url=http://62.210.245.19:8000/live/testapp/testapp/25.ts</link>
 <thumbnail>https://upload.wikimedia.org/wikipedia/fr/b/b0/France_%C3%94_logo_antenne_%282008%29.png</thumbnail>
 
 <item>
 <title>Comédie+</title>
-<link>plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&amp;url=http://193.70.116.156:8080/live/aliguner1/fIZgJmqKp2/6354.ts</link>
+<link>plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&amp;url=http://62.210.245.19:8000/live/testapp/testapp/59.ts</link>
 <thumbnail>http://www.toutelatele.com/IMG/arton70636.jpg</thumbnail>
 
 <item>
 <title>Ciné Polar</title>
-<link>plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&amp;url=http://193.70.116.156:8080/live/aliguner1/fIZgJmqKp2/878.ts</link>
+<link>plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&amp;url=http://62.210.245.19:8000/live/testapp/testapp/60.ts</link>
 <thumbnail>http://kbbpf.lescigales.org/Logos/CINE-POLAR.SD.png</thumbnail>
 
 <item>
 <title>Ciné Club</title>
-<link>plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&amp;url=http://link.softiptv.com:2500/live/NiOxnbQ5Kx/DdT5C2d1gO/1251.ts</link>
+<link>plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&amp;url=http://62.210.245.19:8000/live/testapp/testapp/47.ts</link>
 <thumbnail>http://www.avoir-alire.com/IMG/png/cine_club.png</thumbnail>
 
 <item>
@@ -147,92 +147,92 @@
 
 <item>
 <title>AB1</title>
-<link>plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&amp;url=http://193.70.116.156:8080/live/aliguner1/fIZgJmqKp2/856.ts</link>
+<link>plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&amp;url=http://62.210.245.19:8000/live/testapp/testapp/56.ts</link>
 <thumbnail>http://www.dvbxtreme.com/wp-content/uploads/2016/11/ab1-logo.jpg</thumbnail>
 
 <item>
 <title>RTL 9</title>
-<link>plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&amp;url=http://193.70.116.156:8080/live/aliguner1/fIZgJmqKp2/881.ts</link>
+<link>plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&amp;url=http://62.210.245.19:8000/live/testapp/testapp/157.ts</link>
 <thumbnail>http://images.programme.tv/2010/09/e5d3bbaa70282d465e0d952b6a18447a2.jpg</thumbnail>
 
 <item>
 <title>NT1</title>
-<link>plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&amp;url=http://193.70.116.156:8080/live/aliguner1/fIZgJmqKp2/863.ts</link>
+<link>plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&amp;url=http://62.210.245.19:8000/live/testapp/testapp/36.ts</link>
 <thumbnail>https://upload.wikimedia.org/wikipedia/fr/thumb/8/83/NT1_2012.svg/400px-NT1_2012.svg.png</thumbnail>
 
 <item>
 <title>Science Et Vie</title>
-<link>plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&amp;url=http://xtream.hopto.me:9000/live/9/9/9952.ts</link>
+<link>plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&amp;url=http://62.210.245.19:8000/live/testapp/testapp/156.ts</link>
 <thumbnail>https://rp-live.orange.fr/otv_logos/logo_webtv_livetv_encyclopedia.png</thumbnail>
 
 <item>
 <title>Voyage</title>
-<link>plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&amp;url=http://xtream.hopto.me:9000/live/9/9/9993.ts</link>
+<link>plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&amp;url=http://62.210.245.19:8000/live/testapp/testapp/98.ts</link>
 <thumbnail>https://alloforfait.fr/wp-content/uploads/2015/02/Voyage-300x200.jpg</thumbnail>
 
 <item>
 <title>RMC</title>
-<link>plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&amp;url=http://193.70.116.156:8080/live/aliguner1/fIZgJmqKp2/2527.ts</link>
+<link>plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&amp;url=http://62.210.245.19:8000/live/testapp/testapp/158.ts</link>
 <thumbnail>http://www.fan2tv.com/images/rmcdecouverte_logo.jpg</thumbnail>
 
 <item>
 <title>TMC</title>
-<link>plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&amp;url=http://193.70.116.156:8080/live/aliguner1/fIZgJmqKp2/860.ts</link>
+<link>plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&amp;url=http://62.210.245.19:8000/live/testapp/testapp/44.ts</link>
 <thumbnail>http://www.webmaster-gratuit.com/pict/play-tmc.jpg</thumbnail>
 
 <item>
 <title>Série Club</title>
-<link>plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&amp;url=http://link.softiptv.com:2500/live/NiOxnbQ5Kx/DdT5C2d1gO/1251.ts</link>
+<link>plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&amp;url=http://62.210.245.19:8000/live/testapp/testapp/47.ts</link>
 <thumbnail>https://alloforfait.fr/wp-content/uploads/2015/01/s%C3%A9rie-club.jpg</thumbnail>
 
 <item>
 <title>Nickelodeon</title>
-<link>plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&amp;url=http://xtream.hopto.me:9000/live/9/9/9733.ts</link>
+<link>plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&amp;url=http://62.210.245.19:8000/live/testapp/testapp/92.ts</link>
 <thumbnail>http://images.bwwstatic.com/tvnetworklogos/14A520B9-C1A3-ED0B-9AB1E4DAC880B252.jpg</thumbnail>
 
 <item>
 <title>Euronews</title>
-<link>plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&amp;url=http://link.softiptv.com:2500/live/NiOxnbQ5Kx/DdT5C2d1gO/3355.ts</link>
+<link>plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&amp;url=http://62.210.245.19:8000/live/testapp/testapp/168.ts</link>
 <thumbnail>http://static.euronews.com/media/default-img-textv2.gif</thumbnail>
 
 <item>
 <title>Disney XD</title>
-<link>plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&amp;url=http://193.70.116.156:8080/live/aliguner1/fIZgJmqKp2/885.ts</link>
+<link>plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&amp;url=http://62.210.245.19:8000/live/testapp/testapp/75.ts</link>
 <thumbnail>http://img02.deviantart.net/7bf1/i/2012/155/0/0/disney_xd_hd_logo_by_dokifanart-d528e7v.png</thumbnail>
 
 <item>
 <title>Canal+</title>
-<link>plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&amp;url=http://193.70.116.156:8080/live/aliguner1/fIZgJmqKp2/2540.ts</link>
+<link>plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&amp;url=http://62.210.245.19:8000/live/testapp/testapp/6.ts</link>
 <thumbnail>http://www.creads.fr/blog/wp-content/uploads/2014/08/google_avatar_canalplus.jpg</thumbnail>
 
 <item>
 <title>Canal+ Family</title>
-<link>plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&amp;url=http://xtream.hopto.me:9000/live/9/9/9040.ts</link>
+<link>plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&amp;url=http://62.210.245.19:8000/live/testapp/testapp/10.ts</link>
 <thumbnail>http://vignette2.wikia.nocookie.net/logopedia/images/3/33/CANAL_%2B_FAMILY_HD_2013.jpg</thumbnail>
 
 <item>
 <title>Canal+ Cinéma</title>
-<link>plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&amp;url=http://193.70.116.156:8080/live/aliguner1/fIZgJmqKp2/6352.ts</link>
+<link>plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&amp;url=http://62.210.245.19:8000/live/testapp/testapp/8.ts</link>
 <thumbnail>http://www.dvbxtreme.com/wp-content/uploads/2016/08/Canal-Cinema-logo.png</thumbnail>
 
 <item>
 <title>Canal+ Classic</title>
-<link>plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&amp;url=http://link.softiptv.com:2500/live/NiOxnbQ5Kx/DdT5C2d1gO/1390.ts</link>
+<link>plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&amp;url=http://62.210.245.19:8000/live/testapp/testapp/8.ts</link>
 <thumbnail>https://upload.wikimedia.org/wikipedia/en/thumb/3/3e/Cine%2B_Classic_logo_2011.svg/1200px-Cine%2B_Classic_logo_2011.svg.png</thumbnail>
 
 <item>
 <title>Canal+ Sport</title>
-<link>plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&amp;url=http://193.70.116.156:8080/live/aliguner1/fIZgJmqKp2/2539.ts</link>
+<link>plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&amp;url=http://62.210.245.19:8000/live/testapp/testapp/80.ts</link>
 <thumbnail>http://www.cestapunta-protour.fr/files/pnews/public/r887_12_r160_49_canal-canal-plus-sport-2.jpg</thumbnail>
 
 <item>
 <title>Canal+ Décalé</title>
-<link>plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&amp;url=http://193.70.116.156:8080/live/aliguner1/fIZgJmqKp2/2538.ts</link>
+<link>plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&amp;url=http://62.210.245.19:8000/live/testapp/testapp/7.ts</link>
 <thumbnail>https://upload.wikimedia.org/wikipedia/fr/thumb/9/91/Canal%2B_D%C3%A9cal%C3%A9_2013.svg/321px-Canal%2B_D%C3%A9cal%C3%A9_2013.svg.png</thumbnail>
 
 <item>
 <title>Canal+ Emotion</title>
-<link>plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&amp;url=http://xtream.hopto.me:9000/live/9/9/6688.ts</link>
+<link>plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&amp;url=http://62.210.245.19:8000/live/testapp/testapp/14.ts</link>
 <thumbnail>http://vignette4.wikia.nocookie.net/logopedia/images/4/4c/Cine_plus_emotion.png</thumbnail>
 
 <item>
@@ -369,7 +369,7 @@
 
 <item>
 <title>Planète+</title>
-<link>plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&amp;url=http://193.70.116.156:8080/live/aliguner1/fIZgJmqKp2/2525.ts</link>
+<link>plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&amp;url=http://62.210.245.19:8000/live/testapp/testapp/96.ts</link>
 <thumbnail>https://yt3.ggpht.com/-gZvG59TkqwE/AAAAAAAAAAI/AAAAAAAAAAA/9J6GIqd4Pjs/s900-c-k-no-mo-rj-c0xffffff/photo.jpg</thumbnail>
 
 <item>
@@ -379,15 +379,15 @@
 
 <item>
 <title>NatGeo Wild</title>
-<link>plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&amp;url=http://193.70.116.156:8080/live/aliguner1/fIZgJmqKp2/2524.ts</link>
+<link>plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&amp;url=http://62.210.245.19:8000/live/testapp/testapp/93.ts</link>
 <thumbnail>https://yt3.ggpht.com/-HH4qDZivPuE/AAAAAAAAAAI/AAAAAAAAAAA/dPjv2XCNQmM/s900-c-k-no-mo-rj-c0xffffff/photo.jpg</thumbnail>
 
 <item>
 <title>Animaux</title>
-<link>plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&amp;url=http://xtream.hopto.me:9000/live/9/9/4599.ts</link>
+<link>plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&amp;url=http://62.210.245.19:8000/live/testapp/testapp/97.ts</link>
 <thumbnail>https://upload.wikimedia.org/wikipedia/fr/thumb/0/08/Animaux_logo.svg/784px-Animaux_logo.svg.png</thumbnail>
 
 <item>
 <title>Ushuaia</title>
-<link>plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&amp;url=http://xtream.hopto.me:9000/live/9/9/4580.ts</link>
+<link>plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&amp;url=http://62.210.245.19:8000/live/testapp/testapp/99.ts</link>
 <thumbnail>http://image.cellulaire.fr/channel/ushuaaa-tv-hd-chaine-guide-tv.png</thumbnail>
