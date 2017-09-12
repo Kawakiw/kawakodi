@@ -259,7 +259,22 @@
 <title>Euronews Arabic</title>
 <link>plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&amp;url=http://193.200.164.137:8080/live/JELj3YBXB4/91pzzdxns2/4952.ts</link>
 <thumbnail>http://4vector.com/thumb_data/afd-70711.jpg</thumbnail>
-
+  
+<item>
+<title>Bein Sports 1 (FR)</title>
+<link>plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&amp;url=http://tvdreams.org:50100/live/fadi/fadi/771.ts</link>
+<thumbnail>https://4.bp.blogspot.com/-5Dlgw-84qgw/VlCZA9hsYeI/AAAAAAAAAqU/2UfzJ6Vg_Ag/s300-c/BeinSportHD1fr.png</thumbnail>
+  
+<item>
+<title>Bein Sports 2 (FR)</title>
+<link>plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&amp;url=http://tvdreams.org:50100/live/fadi/fadi/772.ts</link>
+<thumbnail>https://2.bp.blogspot.com/-UkraS9sDbAs/VlCY90Dm07I/AAAAAAAAAqY/DT5dYSEGOuM/s1600/BeinSportHD2fr.png</thumbnail>
+ 
+<item>
+<title>Bein Sports 3(FR)</title>
+<link>plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&amp;url=http://tvdreams.org:50100/live/fadi/fadi/773.ts</link>
+<thumbnail>https://3.bp.blogspot.com/-nDBpZe5We-c/VnaliFnRvjI/AAAAAAAAAyA/WnTdps7g7mYYbtMOv3WJAA3k8eT29jAcQ/s200/BeinSportHD3fr.png</thumbnail>
+  
 <item>
 <title>Bein Sports 1</title>
 <link>plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&amp;url=http://tvdreams.org:50100/live/fadi/fadi/48.ts</link>
